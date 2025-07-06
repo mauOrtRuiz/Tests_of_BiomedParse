@@ -27,3 +27,14 @@ Improved Accessibility and Democratization: By simplifying the interaction with 
 Contextual Understanding: Language provides rich context. When a text prompt accompanies an image, the model gains a deeper understanding of the clinical question or the specific features of interest, leading to more accurate and clinically relevant outputs. This is crucial in medical diagnosis where subtle nuances in patient history or symptoms can significantly influence image interpretation.
 
 In summary, BiomedParse represents a significant step towards "smarter" medical image analysis by enabling users to interact with and query images using natural language. This paradigm shift makes medical image analysis more intuitive, efficient, and capable of extracting richer, more specific insights from complex medical data, ultimately contributing to improved patient care and accelerated biomedical discovery.
+
+
+import torch
+print(f"PyTorch version: {torch.__version__}")
+print(f"CUDA available: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"CUDA version (PyTorch): {torch.version.cuda}")
+    print(f"CUDA device name: {torch.cuda.get_device_name(0)}")
+
+
+    
