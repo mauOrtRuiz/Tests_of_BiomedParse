@@ -20,6 +20,14 @@ Unlocking Unstructured Data: A vast amount of valuable information in healthcare
 Automated Report Generation: NLP can assist in generating structured reports from image findings.
 
 Clinical Decision Support: By linking textual descriptions to image features, NLP can aid in faster and more accurate diagnoses and treatment planning.
+<img width="869" height="491" alt="image" src="https://github.com/user-attachments/assets/20da3d73-75bb-4c98-bbc7-2f62128cb22a" />
+some examples:
+<img width="721" height="497" alt="image" src="https://github.com/user-attachments/assets/a5c082fe-574c-4034-b9da-125b7fa51bab" />
+
+<img width="719" height="496" alt="image" src="https://github.com/user-attachments/assets/e5b373ee-8929-4711-bb79-261ef498e416" />
+
+
+<img width="725" height="488" alt="image" src="https://github.com/user-attachments/assets/3e800001-f48e-4bf1-b642-de97a7c1d5e7" />
 
 Research and Data Mining: Large language models can analyze vast repositories of medical literature and patient records, correlating textual findings with imaging manifestations to identify patterns and insights for research.
 
