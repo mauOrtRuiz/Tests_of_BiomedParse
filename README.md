@@ -6,7 +6,8 @@ BiomedParse is a cutting-edge biomedical foundation model developed by Microsoft
 
 Its core innovation lies in its ability to leverage natural language text as input prompts. This means users can simply describe what they are looking for (e.g., "neoplastic cells in breast pathology" or "COVID-19 infection in chest CT"), and BiomedParse will perform the corresponding segmentation, detection, or recognition with high accuracy, even for irregularly shaped objects. It was trained on a massive dataset of over 6 million image, segmentation mask, and textual description triples, often using GPT-4 to harmonize and enrich existing natural language labels.
 
-The Relevance of Input Language Text in Medical Imaging
+The Relevance of Input Language Text in Medical Imaging, the semantics recognized by the system are the following segmentation tasks:
+<img width="676" height="583" alt="image" src="https://github.com/user-attachments/assets/0527c290-d180-40e2-b311-da5d9c05a5d5" />
 
 The integration of input language text into medical imaging analysis, exemplified by BiomedParse, is profoundly relevant for several reasons:
 
@@ -28,7 +29,7 @@ Contextual Understanding: Language provides rich context. When a text prompt acc
 
 In summary, BiomedParse represents a significant step towards "smarter" medical image analysis by enabling users to interact with and query images using natural language. This paradigm shift makes medical image analysis more intuitive, efficient, and capable of extracting richer, more specific insights from complex medical data, ultimately contributing to improved patient care and accelerated biomedical discovery.
 
-After careful revision of the main functions within the BiomedParse GitHub repository, there is no code here to input the text commands as in the video demo. It is the segmentation model with specific prompts. My finding is that it is a front-end app that connects directly to some NLP/LLM service that converts natural language into processing command prompts in the back end. The GitHUb only providess the biomedparse segmentation model.
+After careful revision of the main functions within the BiomedParse GitHub repository, there is no code here to input the text commands as in the video demo. It is the segmentation model with specific prompts. My finding is that it is a front-end app that connects directly to some NLP/LLM service that converts natural language into processing command prompts in the back end. The GitHub only provides the biomedparse segmentation model.
 
 
 
