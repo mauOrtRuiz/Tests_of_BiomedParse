@@ -28,6 +28,7 @@ Contextual Understanding: Language provides rich context. When a text prompt acc
 
 In summary, BiomedParse represents a significant step towards "smarter" medical image analysis by enabling users to interact with and query images using natural language. This paradigm shift makes medical image analysis more intuitive, efficient, and capable of extracting richer, more specific insights from complex medical data, ultimately contributing to improved patient care and accelerated biomedical discovery.
 
+After careful revision of the main functions within the BiomedParse GitHub repository, there is no code here to input the text commands as in the video demo. It is the segmentation model with specific prompts. My finding is that it is a front-end app that connects directly to some NLP/LLM service that converts natural language into processing command prompts in the back end. The GitHUb only providess the biomedparse segmentation model.
 
 
 
